@@ -46,7 +46,8 @@ syn match dotConfComment ' *#.*$'
 hi def link dotConfComment Comment
 hi def link dotConfInclude Keyword
 hi def link dotConfText String
-hi def link dotConfNumber Type
+hi def link dotConfUnit Type
+hi def link dotConfNumber Number
 hi def link dotConfEqual Operator
 hi def link dotConfYES Boolean
 hi def link dotConfNO Boolean
